@@ -1,11 +1,7 @@
-n = int(input("Enter n: "))
+n = int(input("Enter a number: "))
 
-for num in range(1, n + 1):
-    sum = 0
+print("Factors are:")
 
-    for i in range(1, num):
-        if num % i == 0:
-            sum += i
-
-    if sum == num:
-        print(num)
+for i in range(1, n + 1):
+    if n % i == 0:
+        print(i , end=" ")
