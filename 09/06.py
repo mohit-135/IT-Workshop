@@ -1,4 +1,4 @@
-s = "mohit"
+s = "success"
 ch = input("Enter a character to remove: ")
 
 s = s.replace(ch, "")
